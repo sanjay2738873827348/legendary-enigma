@@ -10,7 +10,7 @@ import { useGSAP } from "@gsap/react";
 
 export function CreatePost() {
   const titleRef = useRef<HTMLInputElement>(null);
-  const contentRef = useRef<HTMLInputElement>(null);
+  const contentRef = useRef<HTMLTextAreaElement>(null);
   const imageref = useRef<HTMLInputElement>(null);
   const [errorMessage, setErrorMessage] = useState("");
   const router = useRouter();
